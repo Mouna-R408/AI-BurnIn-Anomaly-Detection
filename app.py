@@ -14,8 +14,8 @@ import streamlit as st
 
 BASE_DIR = Path(__file__).resolve().parents[1]
 
-MODEL_PATH = BASE_DIR / "models" / "burnin_random_forest.pkl"
-SHAP_PATH = BASE_DIR / "results" / "shap_feature_importance.csv"
+MODEL_PATH = BASE_DIR / "burnin_random_forest.pkl"
+SHAP_PATH = BASE_DIR / "shap_feature_importance.csv"
 
 OLLAMA_MODEL = "llama3.2:3b"
 
