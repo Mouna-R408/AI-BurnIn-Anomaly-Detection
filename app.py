@@ -12,7 +12,7 @@ import streamlit as st
 # 1. PROJECT PATHS AND CONFIGURATION
 # ============================================================
 
-BASE_DIR = Path(__file__).resolve().parents[1]
+BASE_DIR = Path(__file__).resolve().parent
 
 MODEL_PATH = BASE_DIR / "burnin_random_forest.pkl"
 SHAP_PATH = BASE_DIR / "shap_feature_importance.csv"
